@@ -31,8 +31,10 @@ public class Student {
 	private String password;
 
 
+
+//メモ：アクセサは右クリックからソース→getterおよびsetterを選択すると、自動再生をすることができる。
 	public int getStudentId() {
-		return this.studentId;
+		return this.studentId;  //メモ：このthisは省略してもいい(以下のgetterメソッドも同じ)
 	}
 	public void setStudentId(int studentId) {
 		this.studentId = studentId;
