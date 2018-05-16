@@ -50,7 +50,11 @@ public class PTra13_09 {
 		}
 
 		for (int i = 0; i < employees.length; i++) {
+			System.out.println(employees[i].getUserNm());
+			System.out.println(employees[i].getMail());
+			System.out.println(employees[i].getPassword());
 			System.out.println(employees[i].getDepartmentNm());
+			System.out.println(employees[i].getDepartmentCnt());
 
 		}
 
