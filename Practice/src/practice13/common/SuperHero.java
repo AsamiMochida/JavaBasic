@@ -2,7 +2,7 @@ package practice13.common;
 
 public class SuperHero extends Hero{
 
-	Item equipment; //メモ：アイテム装備
+	private Item equipment; //メモ：アイテム装備
 
 
 	public Item getEquipment() {

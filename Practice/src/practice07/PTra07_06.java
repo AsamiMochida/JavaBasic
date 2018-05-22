@@ -16,7 +16,7 @@ public class PTra07_06 {
 		};
 
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
-		
+
 		// ↓小数点で合計平均値をだすためにintではなくdouble(ダブル)で
 		// 　繰り返しを避けるため、sumとcountはfor文から外して書く
 		double sum = 0;
@@ -28,7 +28,9 @@ public class PTra07_06 {
 				count++;
 			}
 		}
-		System.out.println(sum/count);
+		System.out.println("合計値:" + sum);
+		System.out.println("値数:" + count);
+		System.out.println("平均値:" + (sum/count));
 	}
 }
 

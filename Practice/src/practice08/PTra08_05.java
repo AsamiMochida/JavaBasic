@@ -35,10 +35,12 @@ public class PTra08_05 {
 		double x = quadrangle(width, height);
 		double y = triangle(width, height);
 		if(choice == 1) {
-			System.out.println(x);;
-		}else if(choice == 2){	
-			System.out.println(y);;
-		}	
+			System.out.println("四角形の面積：" + x);;
+		}else if(choice == 2){
+			System.out.println("三角形の面積：" + y);;
+		}else {
+			System.out.println("正しい値を入力してください。");
+		}
 	}
 
 	/*

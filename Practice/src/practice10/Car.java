@@ -16,8 +16,7 @@ public class Car {
 
 		return num + 1;
 
-
-	};
+	}
 }
 
 

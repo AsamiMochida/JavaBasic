@@ -59,6 +59,8 @@ public class PTra05_04 {
 					isloop = false;
 					break;
 				default:
+					System.out.println("正しい値を入力してください");
+					isloop = true;
 			}
 
 		}

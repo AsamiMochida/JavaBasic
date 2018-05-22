@@ -7,6 +7,7 @@
 package practice13.ptra13;
 
 import practice13.common.Employee;
+import practice13.common.Person;
 
 public class PTra13_09 {
 
@@ -40,6 +41,7 @@ public class PTra13_09 {
 
 		for(int i =0; i < employees.length; i ++) {
 			Employee employee1 = new Employee();
+			employee1.setUserId(Person.BASE_NO + i);
 			employee1.setUserNm(NAMEDATA[i]);
 			employee1.setMail(MAILDATA[i]);
 			employee1.setPassword(PASSDATA[i]);
@@ -50,20 +52,13 @@ public class PTra13_09 {
 		}
 
 		for (int i = 0; i < employees.length; i++) {
-			System.out.println(employees[i].getUserNm());
-			System.out.println(employees[i].getMail());
-			System.out.println(employees[i].getPassword());
-			System.out.println(employees[i].getDepartmentNm());
-			System.out.println(employees[i].getDepartmentCnt());
-
+			System.out.println("ID:" + employees[i].getUserId());
+			System.out.println("名前：" + employees[i].getUserNm());
+			System.out.println("メールアドレス：" + employees[i].getMail());
+			System.out.println("パスワード：" + employees[i].getPassword());
+			System.out.println("部署：" + employees[i].getDepartmentNm());
+			System.out.println("部署人数：" + employees[i].getDepartmentCnt());
+			System.out.println("---------------------------------");
 		}
-
-
-
-
-
-
-
-
 	}
 }

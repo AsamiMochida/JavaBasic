@@ -21,24 +21,25 @@ public class PTra11_02 {
 		for(int i = 0; i < books.length; i++) {
 			if(books[i].title.contains(line)) {
 				System.out.println(books[i].dispBookInfo());
+				System.out.println("--------------------------");
 			}
 
 		}
-		
-		
+
+
 		// ↓↓↓　containsの使い方のメモ　↓↓↓
-		
+
         //*Stringの宣言
 //        String str = "appleorangemelon";
-        
+
         //*指定した文字列が存在するか確認
 //        if (str.contains("orange"))
 //        {
 //            System.out.println("It contains oranges");
 //       }
-		
-		
-		
+
+
+
 
 	}
 }
